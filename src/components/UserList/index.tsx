@@ -26,6 +26,25 @@ const UserList: React.FC = () => {
 
     <Role>Disponível - 1</Role>
     <UserRow nickname="Brow" isBot />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
+    <UserRow nickname="Brow" />
 
   </Container>
   )
