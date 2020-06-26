@@ -7,6 +7,7 @@ interface UserProps {
   isBot?: boolean;
 }
 
+
 const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
   return (
     <User>

@@ -1,24 +1,14 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 
 import ChannelMesssage, { Mention } from '../ChannelMessage';
 
 import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
 
 const ChannelData: React.FC = () => {
-  const messagesRef = useRef() as React.MutableRefObject<HTMLDivElement>;
-
-  useEffect(() => {
-    const div = messagesRef.current;
-
-   
-
-  },[messagesRef]);
-
-
 
   return (
   <Container>
-    <Messages ref={messagesRef}>
+    <Messages>
       {
         Array.from(Array(15).keys()).map((n) => 
         (
