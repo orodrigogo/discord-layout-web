@@ -28,6 +28,13 @@ export const Avatar = styled.div`
 
   background-color: var(--gray);
 
+  overflow: hidden;
+
+  > img {
+    width: 100%;
+    height: 100%;    
+  }
+
 `;
 
 
@@ -40,7 +47,7 @@ export const UserData = styled.div`
 
   > strong {
     color: var(--white);
-    font-size: 13px;
+    font-size: 12px;
     display: block;
   }
 
